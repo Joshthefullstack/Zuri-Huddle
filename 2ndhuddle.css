@@ -1,0 +1,392 @@
+body{
+    width: auto;
+    height: 100vh;
+}
+
+.container{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Zuri\ Huddle/bg-hero-desktop.svg");
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+}
+
+header{
+    display: flex;
+    gap: 90px;
+    justify-content: space-between;
+    position: fixed;
+}
+
+header img{
+    margin-top: 20px;
+    height: 28px;
+    margin-left: 50px;
+    display: flex;
+}
+
+header a{
+    margin-left: 700px;
+    margin-top: 13px;
+    background-color: white;
+    text-decoration: none;
+    padding: 8px 40px;
+    border-radius: 20px;
+    color: hsl(192, 100%, 9%);
+    box-shadow: 2px 2px 2px 2px hsla(0, 0%, 20%, 0.37);
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+}
+
+header a:hover{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between; 
+    gap: 50px;
+    align-content:center;
+
+}
+
+.text{
+    margin-top: 160px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.text h1{
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+}
+
+.text p{
+    font-size: 14px;
+    margin-top: 20px;
+    color: hsl(192, 100%, 9%);
+}
+
+.text a{
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px 30px;
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 20px;
+}
+
+.text a:hover{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+.img{
+    margin-top: 100px;
+    margin-right: 18px;
+    /* border: 1px solid red; */
+    /* width: 50%;
+    display: block; */
+    width: auto;
+}
+
+.second{
+    margin-top: 150px;
+}
+
+.together{
+    display: flex;
+    justify-content: space-between; 
+    gap: 70px;
+    align-content:center;
+    margin: 0 80px;
+    box-shadow: 2px 2px 8px 2px hsla(0, 0%, 20%, 0.37);
+    border-radius: 10px;
+}
+
+.text-two{
+    margin-top: 110px;
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+.text-two h1{
+    color: hsl(192, 100%, 9%);
+}
+
+.text-two p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.img-two{
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.conversations{
+    display: flex;
+    justify-content: space-between; 
+    gap: 70px;
+    align-content:center;
+    margin: 0 80px;
+    box-shadow: 2px 2px 8px 2px hsla(0, 0%, 20%, 0.37);
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.text-three{
+    margin-top: 140px;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.text-three h1{
+    color: hsl(192, 100%, 9%);
+}
+
+.text-three p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.img-three{
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.users{
+    display: flex;
+    justify-content: space-between; 
+    gap: 70px;
+    align-content:center;
+    margin: 0 80px;
+    box-shadow: 2px 2px 8px 2px hsla(0, 0%, 20%, 0.37);
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.text-four{
+    margin-top: 110px;
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+.text-four h1{
+    color: hsl(192, 100%, 9%);
+}
+
+.text-four p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.img-four{
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.third-part{
+    justify-content: center;
+    align-content: center;
+    margin: 50px 230px;
+    box-shadow: 2px 2px 8px 2px hsla(0, 0%, 20%, 0.37);
+    border-radius: 10px;
+    margin-top: 120px;
+    padding: 50px 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.third-part h1{
+    color: hsl(192, 100%, 9%);
+    margin-top: -10px;
+}
+
+.third-part a{
+    text-decoration: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 15px 90px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    display: inline-block;
+    box-shadow: 2px 2px 8px 2px hsla(0, 0%, 20%, 0.37);
+}
+
+.third-part a:hover{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    font-weight: 500;
+    box-shadow: none;
+}
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    height: 500px;
+    margin-top: -150px;
+    z-index: -1;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    color: white;
+    padding: 190px 0 50px 30px;
+    text-align: left;
+    justify-content: center;
+    
+}
+
+.first-detail img{
+    height: 25px;
+    display: block;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-one img{
+    margin-top: 30px;
+}
+
+.contact-one p{
+    margin-left: 50px;
+    margin-top: -28px;
+    font-size: 14px;
+}
+
+.contact-two img{
+    margin-top: 30px;
+}
+
+.contact-two p{
+    margin-left: 50px;
+    margin-top: -28px;
+    font-size: 14px;
+}
+
+.contact-three img{
+    margin-top: 30px;
+}
+
+.contact-three p{
+    margin-left: 50px;
+    margin-top: -28px;
+    font-size: 14px;
+}
+
+ .second-details .about{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.second-details .what{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.second-details .faq{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.third-details .career{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.third-details .blog{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.third-details .contact-us{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.social-icons{
+    padding: 0;
+    margin: 0;
+    margin-right: 5px;
+    margin-top: 40px;
+}
+
+.social-icons .fa-facebook-f{
+    color: white;
+    border: 1px solid white;
+    padding: 5px 9px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 80px;
+}
+
+.social-icons .fa-twitter{
+    color: white;
+    border: 1px solid white;
+    padding: 5px 9px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.social-icons .fa-instagram{
+    color: white;
+    border: 1px solid white;
+    padding: 5px 9px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 13px;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+
+footer .copywright{
+    margin-top: 150px;
+    font-size: 12px;
+    margin-left: 50px;
+}
